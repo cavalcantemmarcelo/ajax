@@ -3,17 +3,24 @@ form {
     border-radius: 1rem;
     padding: 1rem;
     margin: 2rem;
+    text-align: left; /* Justifica o formulário à esquerda */
+    background-color: black; /* Define o fundo como preto */
+    color: white; /* Define a cor do texto como branco */
 }
+
 .input-group,
 input {
     display: block;
     font-size: 1.8rem;
-    width: 50rem;
-    margin: 1rem auto
+    width: 100rem;
+    margin: 1rem 0;
+    background-color: black; /* Define o fundo dos campos como preto */
+    color: white; /* Define a cor do texto dos campos como branco */
 }
 
 label {
     font-size: 1.6rem;
+    color: white; /* Define a cor do texto dos rótulos como branco */
 }
 
 button {
@@ -31,4 +38,5 @@ button {
 
 strong {
     font-size: 1.4rem;
+    color: white; /* Define a cor do texto em negrito como branco */
 }
